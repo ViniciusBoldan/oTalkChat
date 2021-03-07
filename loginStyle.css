@@ -21,6 +21,7 @@ form{
     text-align: center;
     max-width: 400px;
     width: 60%;
+    height: 70%;
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0px 2px 5px #909090;
@@ -29,7 +30,7 @@ form{
 input{
     margin: 10px 0px;
     width: 80%;
-    height: 5%;
+    height: 8%;
     border:none;
     border-bottom: 1px solid #909090;
     background: none;
@@ -39,7 +40,7 @@ input{
     margin-top: 4%;
     margin-bottom: 2%;
     width: 50%;
-    height: 5%;
+    height: 8%;
     background: #009ACD;
     color: white;
     border: none;
@@ -52,7 +53,7 @@ input{
 
 #tema{
     left: 50%;
-    top:85%;
+    top: 75%;
     position: absolute;
     transform: translate(-50%, -50%);
     background:none;
@@ -62,7 +63,15 @@ input{
     cursor: pointer;
     
 }
-#tema:hover{
+#tema button{
+    background: none;
+    color: #009ACD;
+    border: 1px solid;
+    padding: 2px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#tema button:hover{
     color: #505050;
     transition: 0.5s;
 }

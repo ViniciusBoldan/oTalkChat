@@ -1,8 +1,18 @@
-function tema(){
-    if(document.querySelector('head').innerHTML == '<link rel="stylesheet" href="loginStyle.css">' ){
-         document.querySelector('head').innerHTML = '<link rel="stylesheet" href="loginDarkStyle.css">'
-    }else{
-        document.querySelector('head').innerHTML = '<link rel="stylesheet" href="loginStyle.css">'
-    }
-
+function light(){
+    localStorage.setItem('fundo','white')
+    localStorage.setItem('fonte','black')
+    document.body.style.background = localStorage.fundo
+    document.body.style.color = localStorage.fonte
 }
+function dark(){
+    localStorage.setItem('fundo','black')
+    localStorage.setItem('fonte','white')
+    document.body.style.background = localStorage.fundo
+    document.body.style.color = localStorage.fonte
+}
+
+function temas(){
+    document.body.style.background = localStorage.fundo
+    document.body.style.color = localStorage.fonte
+}
+console.log(temas())
