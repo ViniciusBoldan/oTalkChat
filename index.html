@@ -1,0 +1,32 @@
+<html  lang="en">
+
+    <head>
+        <meta chaset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="loginStyle.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+        <title>TalkChat - Login</title>
+    </head>
+
+    <body>
+        <div id="caixa">
+            <form>
+                <h1>TalkChat</h1>
+                <p>Faça Login</p>
+
+                <input type="text" name="nome" id='nome' placeholder="Nome Obrigatorio" required>
+                <input type="text" name='sobrenome' id='sobrenome'placeholder="Sobrenome">
+                <input type='email' name='email' id='email' placeholder="Email obrigatorio" required>
+                <input type='password' name='senha' id='senha' placeholder="Senha obrigatoria" required>
+                <button id="enviar" type="submit" >Proximo</button>
+            </form>
+
+            <button id="tema" onclick="tema()" >Mudar Tema</button>
+        </div>
+
+        <script src="loginJS.js" type="text/javascript"></script>
+    </body>
+
+</html>
