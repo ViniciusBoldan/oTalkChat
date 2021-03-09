@@ -16,16 +16,18 @@
                 <h1>TalkChat</h1>
                 <p>Faça Login</p>
 
-                <input type="text" name="nome" id='nome' placeholder="Nome Obrigatorio" required>
+                <input type="text" name="nome" id='nome' placeholder="Nome Obrigatorio">
                 <input type="text" name='sobrenome' id='sobrenome'placeholder="Sobrenome">
-                <input type='email' name='email' id='email' placeholder="Email obrigatorio" required>
-                <input type='password' name='senha' id='senha' placeholder="Senha obrigatoria" required>
-                <button id="enviar" type="submit" >Proximo</button>
+                <input type='email' name='email' id='email' placeholder="Email obrigatorio">
+                <input type='password' name='senha' id='senha' placeholder="Senha obrigatoria">
+                <div id="next">
+                <a href="main.html">Proximo</a>
+                </div>
             </form>
         
             <div id="tema">
-                <button id="Branco" onclick="light()" value="1"  >Tema Claro</button> 
-                <button id="Preto" onclick="dark()"  valu="2" >Tema Escuro</button>
+                <button id="Branco" onclick="changeToLight()" value="1"  >Tema Claro</button> 
+                <button id="Preto" onclick="changeToDark()"  valu="2" >Tema Escuro</button>
             </div>
         </div>
 

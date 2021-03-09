@@ -36,19 +36,21 @@ input{
     background: none;
 }
 
-#enviar{
-    margin-top: 4%;
-    margin-bottom: 2%;
-    width: 50%;
-    height: 8%;
-    background: #009ACD;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
+#next{
+    width: 100%;
+    margin-top: 2%;
 }
-#enviar:hover{
-    box-shadow: 0px 0px 3px #909090;
+a{
+    text-decoration: none;
+    color: white;
+    background: #009ACD;
+    border-radius: 4px;
+    padding: 5px;
+    width:: 80%;
+}
+a:hover{
+    box-shadow: 0px 0px 2px #909090;
+    transition: 0.5s;
 }
 
 #tema{

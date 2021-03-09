@@ -1,18 +1,18 @@
-function light(){
+function changeToLight(){
     localStorage.setItem('fundo','white')
     localStorage.setItem('fonte','black')
     document.body.style.background = localStorage.fundo
     document.body.style.color = localStorage.fonte
 }
-function dark(){
+function changeToDark(){
     localStorage.setItem('fundo','black')
     localStorage.setItem('fonte','white')
     document.body.style.background = localStorage.fundo
     document.body.style.color = localStorage.fonte
 }
 
-function temas(){
+function changeTheme(){
     document.body.style.background = localStorage.fundo
     document.body.style.color = localStorage.fonte
 }
-console.log(temas())
+console.log(changeTheme())

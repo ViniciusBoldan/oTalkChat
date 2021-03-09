@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#display{
+    display: inline-flex;
+}
+
+#left{
+    text-align: center;
+    background: #101010;
+    width: 20vw;
+    height: 100vh;
+}
+#left h1{
+    border-bottom: 1px solid;
+    margin-bottom: 5px;
+}
+#left button{
+    width: 95%;
+    height: 6%;
+    margin-top: 2%;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2vh; 
+}
+
+
+#middle{
+    text-align: center;
+    background: #303030;
+    width: 60vw;
+    height: 100vh;
+}
+#middle h1{
+    border-bottom: 1px solid;
+}
+#chat{
+    text-align: left;
+    padding: 3vw;
+}
+#chat #contato{
+    text-align: left;
+    background: #404040;
+    padding: 1vw;
+    margin-bottom: 1vh;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px black;
+}
+#chat #mine{
+    text-align: right;
+    background: #505050;
+    padding: 1vw;
+    margin-bottom: 1vh;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px black;
+}
+
+
+#right{
+    text-align: center;
+    background: #101010;
+    width: 20vw;
+    height: 100vh;
+}
+#right h1{
+    border-bottom: 1px solid;
+    margin-bottom: 5px;
+}
