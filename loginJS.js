@@ -9,7 +9,7 @@ function changeToDark(){
     localStorage.setItem('fonte','white')
     document.body.style.background = localStorage.fundo
     document.body.style.color = localStorage.fonte
-    document.body.input.style.color = localStorage.fonte
+    document.body.form.input.style.color = localStorage.fonte
 }
 
 function changeTheme(){
