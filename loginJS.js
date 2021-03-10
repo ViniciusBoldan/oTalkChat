@@ -1,3 +1,6 @@
+alert('Para foto de perfil: Pegue o link de uma imagem qualquer, de preferencia de proporção 1:1(quadrada), pra não ficar distorcida.')
+alert('Não existe qualquer segurança aqui, então não use uma de suas senhas')
+
 function changeToLight(){
     localStorage.setItem('fundo','white')
     localStorage.setItem('fonte','red')
