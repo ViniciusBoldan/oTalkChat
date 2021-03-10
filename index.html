@@ -12,16 +12,17 @@
 
     <body>
         <div id="caixa">
-            <form>
+            <form action="main.html" id="loginForm">
                 <h1>TalkChat</h1>
                 <p>Faça Login</p>
 
-                <input type="text" name="nome" id='nome' placeholder="Nome Obrigatorio">
-                <input type="text" name='sobrenome' id='sobrenome'placeholder="Sobrenome">
-                <input type='email' name='email' id='email' placeholder="Email obrigatorio">
-                <input type='password' name='senha' id='senha' placeholder="Senha obrigatoria">
+                <input id="imagem" type="text" placeholder="Link para imagem de perfil">
+                <input type="text" id='nome' placeholder="Nome Obrigatorio" required>
+                <input type="text" id='sobrenome'placeholder="Sobrenome">
+                <input type='text' id='email' placeholder="Email obrigatorio" required>
+                <input type='password' id='senha' placeholder="Senha obrigatoria" required>
                 <div id="next">
-                <a href="main.html">Proximo</a>
+                <button  onclick="criarPerfil()">Proximo</button>
                 </div>
             </form>
         
@@ -29,6 +30,7 @@
                 <button id="Branco" onclick="changeToLight()" value="1"  >Tema Claro</button> 
                 <button id="Preto" onclick="changeToDark()"  valu="2" >Tema Escuro</button>
             </div>
+
         </div>
 
         <script src="loginJS.js" type="text/javascript"></script>

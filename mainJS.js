@@ -20,3 +20,8 @@ function closeLeftNav(){
     document.getElementById('right').style.display = 'none'
     document.getElementById('right').style.right = '-20vw'
 }
+
+
+document.getElementById('foto').src = `${localStorage.img}`
+document.getElementById('name').innerText = `${localStorage.nome} ${localStorage.sobrenome}`
+document.getElementById('gmail').innerText = `${localStorage.email}`
