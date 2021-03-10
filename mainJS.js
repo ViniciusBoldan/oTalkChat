@@ -1,7 +1,8 @@
-document.body.style.background = localStorage.fundo
-document.body.style.color = localStorage.fonte
-
-
+function changeTheme(){
+    document.body.style.background = localStorage.fundo
+    document.body.style.color = localStorage.fonte
+}
+console.log(changeTheme())
 //função das barras de navegação
 function openLeftNav(){
     document.getElementById('left').style.display = 'block'

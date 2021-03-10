@@ -23,7 +23,6 @@
     z-index: 12;
 }
 #left h1{
-    height: 4vh;
     border-bottom: 1px solid;
     margin-bottom: 2vh;
 }
@@ -59,18 +58,18 @@
     box-shadow: 0px 10px 10px black;
 }
 #middle #chat{
+    width: 55vw;
     background: black;
 }
 #middle #chat #enviada{
+    margin: 20px 0px;
     background: #009acd;
-    margin: 20px ;
     text-align: right;
     border-radius: 10px;
     padding: 10px;
 }
 #middle #chat #recebida{
     background: #00688B;
-    margin: 1%;
     text-align: left;
     border-radius: 10px;
     padding: 10px;
@@ -110,14 +109,13 @@
     border-radius: 5px;
     font-size: 20px;
 }
-#middle #inputArea #navButton{
+#middle #inputArea #navButtonLeft{
     visibility: hidden;
 }
 
 
 /*right area*/
 #right{
-    border-left: 1px solid;
     text-align: center;
     background: #101010;
     position: fixed;
@@ -178,6 +176,7 @@
 }
 
     #right{
+        border-left: 1px solid;
         transition: 1s;
         right: -20vw;
         display: none;
