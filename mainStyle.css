@@ -141,8 +141,8 @@
     font-size: 20px;
 }
 #right img{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 100%;
     border: 2px solid red;
 }
@@ -157,11 +157,13 @@
     #left button{
         display: block;
         margin-left: 20px;
+        width: 19vw;
     }
     #left #closeButton{
         visibility: visible;
         margin-top: 50px;
         color: red;
+        width: 90%;
     }
 
     #middle #chat{
@@ -190,9 +192,10 @@
         right: -20vw;
         display: none;
     }
-    #right button{
-        display: block;
-        margin-left: 20px;
+    #right p{
+        font-size: 5px;
+        width: 90%;
+        padding: 1px;
     }
     #right img{
         width: 100px;
