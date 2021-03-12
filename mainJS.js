@@ -1,3 +1,5 @@
+localStorage.setItem('mainPage', document.URL)
+
 function changeTheme(){
     document.body.style.background = localStorage.fundo
     document.body.style.color = localStorage.fonte
