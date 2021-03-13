@@ -1,3 +1,4 @@
+alert('Isto ainda é um prototipo de layout!')
 if(localStorage.mainPage){
     let endereco = localStorage.getItem('mainPage')
     location.href = endereco
