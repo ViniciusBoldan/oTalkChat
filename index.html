@@ -1,0 +1,37 @@
+<html  lang="en">
+
+    <head>
+        <meta chaset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="indexStyle.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+
+        <title>TalkChat - Login</title>
+
+        </head>
+
+    <body>
+
+            <form action="main/mainPage.html">
+
+                    <h1>TalkChat</h1>
+                    <h2>Faça Login</h2>
+
+                <input id="userName" type="text" placeholder="Nome aqui" required>
+                <input id="userEmail" type="email" placeholder="Email aqui" required>
+
+                <button type='submit' onclick="saveLogin()">Enter</button>
+
+            </form>
+
+        <script>
+            if(localStorage.mainPageAddress){
+            location.href = localStorage.getItem('mainPageAddress')
+}
+        </script>
+        <script type='text/javascript' src="indexScript.js"></script>
+    </body>
+
+</html>
