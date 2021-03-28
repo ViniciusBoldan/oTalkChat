@@ -14,6 +14,40 @@
 
     <body>
         
+        <div id="viewportArea">
+
+            <div id="left">
+                <div id="leftTitle">
+                    <h1>Contatos</h1>
+                    <button id="plusButton" onclick="createContact()"> + </button>
+                    <button id="closeTab" onclick="closeTab()">Fechar aba</button>
+                </div>
+
+                <div id="contactListArea">
+                    <ul id="contactList">
+
+                    </ul>
+                </div>
+
+            </div>
+
+            <div id="chatArea">
+
+                <div id="messageListArea">
+                    <ul>
+                        
+                    </ul>
+                </div>
+
+                <button id="openTab" onclick="openTab()">Lista</button>
+                <form id="inputArea" action="">
+                    <input id="messageText" type="text" autocomplete="off" placeholder="Digite aqui">
+                    <button id="sendButton" onclick="sendMessage()">─»</button>
+                </form>
+
+            </div>
+
+        </div>
 
         <script type="text/javascript" src="mainScript.js"></script>
     </body>
